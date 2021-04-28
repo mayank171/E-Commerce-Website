@@ -5,4 +5,6 @@ se3.php is the main file.
 
 Run it using Xampp control Panel.
 
+Keep your Xampp Control Panel On.
+
 http://localhost/Ecomwebsite/se3.php
