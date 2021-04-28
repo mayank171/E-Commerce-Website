@@ -1,0 +1,343 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family:monospace;
+    background: #111;
+}
+
+
+
+body{
+    transform: translate(10%,30%);
+    height:50vh;
+}
+
+.dot {
+  height: 80px;
+  width: 80px;
+  background-color: #fafafa;
+  border-radius: 50%;
+  display: inline-block;
+  transform: translate(140%,-50%);
+  position: absolute;
+  z-index: 20;
+}
+
+.dot1{
+    height: 27px;
+    width:27px;
+    background-color: #337ab7;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translate(510%,-120%);
+    position: absolute;
+    z-index: 30;
+}
+
+.half{
+     height:28px;
+     width:57px;
+     border-radius: 50px 50px 0 0;
+     background-color:#337ab7;
+     display: inline-block;
+     z-index: 100;
+     transform: translate(215%,-3px);
+    position: absolute;
+}
+
+.container{
+    height:400px;
+    width:300px;
+    border: 2px solid green;
+    border-radius: 10px;
+    transform: translate(0,0px);
+    z-index: -100;
+}
+
+h1{
+   font-size: 25px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-weight:600;
+    
+}
+
+.container .firstname{
+    text-align: center;
+    display: block;
+    margin:0 auto;
+    margin-top: 8px;
+    padding:8px;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: 1px 0px 5px 1px;
+    transition: 0.5s ease;
+    border: 1px solid #1780c3;
+    color: aliceblue;
+}
+
+.container .firstname:hover{
+    padding:8px 40px 8px 40px;
+}
+
+.container .firstname:focus{
+    padding:8px 40px 8px 40px;
+}
+
+.container .lastname{
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:8px;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: 1px 0px 5px 1px;
+    transition: 0.5s ease;
+    border: 1px solid #1780c3;
+    color: aliceblue;
+}
+
+.container .lastname:hover{
+    padding:8px 40px 8px 40px;
+}
+
+.container .lastname:focus{
+    padding:8px 40px 8px 40px;
+}
+
+.container .email{
+    text-align: center;
+    display: block;
+    margin-left:auto;
+    margin-top: 8px;
+    margin-right: auto;
+    padding:8px;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: 1px 0px 5px 1px;
+    transition: 0.5s ease;
+    border: 1px solid #1780c3;
+    color: aliceblue;
+}
+
+.container .email:hover{
+    padding:8px 40px 8px 40px;
+}
+
+.container .email:focus{
+    padding:8px 40px 8px 40px;
+}
+
+.container .phonenumber{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-top: 8px;
+    margin-right: auto;
+    padding:8px;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: 1px 0px 5px 1px;
+    transition: 0.5s ease;
+    border: 1px solid #1780c3;
+    color: aliceblue;
+}
+
+.container .phonenumber:hover{
+    padding:8px 40px 8px 40px;
+}
+
+.container .phonenumber:focus{
+    padding:8px 40px 8px 40px;
+}
+
+.container .password{
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8px;
+    padding:8px;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: 1px 0px 5px 1px;
+    margin-bottom: 8px;
+    transition: 0.5s ease;
+   border: 1px solid #1780c3;
+    color: aliceblue;
+}
+
+.container .password:hover{
+    padding:8px 40px 8px 40px;
+}
+
+.container .password:focus{
+    padding:8px 40px 8px 40px;
+}
+
+.container .btn{
+    margin-top: 20px;
+    margin-left: 105px;
+    padding: 10px 20px ;
+    border-radius: 30px;
+    list-style: none;
+    color: aliceblue;
+    background-color: #1b569b;
+    font-weight: 600;
+}
+
+.container .btn:hover{
+    background-color: #0f3b6f;
+}
+
+
+.dot10{
+    height: 80px;
+    width:80px;
+    background-color: #fafafa;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translate(810px,-390px);
+    position: absolute;
+    z-index: 10;
+}
+
+.dot11{
+    height: 27px;
+    width:27px;
+    background-color: #16a54d;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translate(3095%,-1420%);
+    position: absolute;
+    z-index: 30;
+}
+
+.half11{
+     height:28px;
+     width:57px;
+     border-radius: 50px 50px 0 0;
+     background-color:#33b766;
+     display: inline-block;
+     z-index: 100;
+     transform: translate(1440%,-353px);
+    position: absolute;
+}
+
+.container1{
+    height:300px;
+    width:300px;
+    border: 2px solid #1779ad;
+    border-radius: 10px;
+    transform: translate(700px,-345px);
+    position: absolute;
+}
+
+h1{
+   font-size: 25px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-weight:600;
+    
+}
+
+.container1 .firstname_email{
+    text-align: center;
+    display: block;
+    margin:0 auto;
+    margin-top: 28px;
+    padding:8px;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: 1px 0px 5px 1px;
+    transition: 0.5s ease;
+    border: 1px solid #3fc317;
+    color: aliceblue;
+}
+
+.container1 .firstname_email:hover{
+    padding:8px 40px 8px 40px;
+}
+
+.container1 .firstname_email:focus{
+    padding:8px 40px 8px 40px;
+}
+
+
+.container1 .password{
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8px;
+    margin-bottom: 28px;
+    padding:8px;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: 1px 0px 5px 1px;
+    margin-bottom: 8px;
+    transition: 0.5s ease;
+   border: 1px solid #3fc317;
+    color:aliceblue;
+}
+
+.mb-3{
+    margin-top: 28px;
+}
+
+.container1 .password:hover{
+    padding:8px 40px 8px 40px;
+}
+
+.container1 .password:focus{
+    padding:8px 40px 8px 40px;
+}
+
+.container1 .btn{
+    margin-top: 20px;
+    margin-left: 105px;
+    padding: 10px 20px ;
+    border-radius: 30px;
+    list-style: none;
+    color: aliceblue;
+    background-color: #29b410;
+    font-weight: 600;
+}
+
+.container1 .btn:hover{
+    background-color: #109644;
+}
+
+.laser{
+    position: absolute;
+    top:0;
+    left:0px;
+    width:2px;
+    height:60%;
+    margin-left: 500px;
+    background: linear-gradient(to top,#0c002b,#1779ff);
+    animation: animate4 1s linear infinite;
+}
+
+@keyframes animate4{
+    0%{
+        transform: translateY(150%);
+    }
+    100%{
+        transform: translateY(-150%);
+    }
+}
+
+.php .incorrect{
+    color:aliceblue;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1000;
+    transform: translate(910%,-3490%);
+    
+}

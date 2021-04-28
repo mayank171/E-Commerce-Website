@@ -1,0 +1,219 @@
+*{
+   margin:0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    transform:translate(-0%,10%);
+}
+
+.container .card{
+    position: relative;
+    margin-top: -30px;
+    width: 950px;
+    height:570px;
+    background: #ebcbcb;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 90px;
+}
+
+.container .card:before{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(209, 25, 61, 0.97);
+    clip-path:circle(250px at -10% 50%);
+    transition: 0.5s ease-in-out;
+}
+
+.container .card:hover:before{
+    clip-path:circle(300px at -10% 50%);
+}
+
+.container .card:after{
+    content:'Nike';
+    position:absolute;
+    top:30%;
+    left:37%;
+    font-size: 9em;
+    font-weight: 550;
+    font-style: italic;
+    color:rgba(10, 1, 4, 0.04);
+}
+
+.container .card .imgbox{
+    position: absolute;
+    top:30%;
+    transform: translate(-30%,-30%);
+    z-index: 10000;
+    width:100%;
+    height: 220px;
+    transition: 0.5s;
+}
+
+.container .card:hover .imgbox{
+    top:0%;
+    transform:translate(0%,42%);
+}
+
+.container .card .imgbox img{
+    position: absolute;
+    top:45%;
+    left:60%;
+    transform: translate(-65%,-40%) rotate(0deg);
+    width:400px;
+    height: 420px;
+}
+
+.container .card .contentbx{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    transform: translate(-100%,30%);
+    text-align: center;
+    transition: 1s;
+    z-index: 10;
+}
+
+.container .card:hover .contentbx{
+    transform: translate(0%,30%);
+}
+
+.container .card .contentbx h2{
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ea779f;
+}
+.container .card .contentbx .size,
+.container .card .contentbx .color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transform: 0.5s;
+}
+.container .card .contentbx .size h3,
+.container .card .contentbx .color h3{
+    color:#dd6d9c;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.container .card .contentbx .size span{
+    width:36px;
+    height: 26px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    display: inline-block;
+    color:#111;
+    background: #fff;
+    margin: 0 5px;
+    transition: 0.5s;
+    color: #111;
+    cursor: pointer;
+}
+
+.container .card .contentbx .size span:hover{
+    background: #e35eb0;
+}
+
+.container .card .contentbx .color ul{
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    display:flex;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.container .card .contentbx .color .btn1
+{
+    background: #fff;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    list-style-type: none;
+    background: rgba(69, 144, 147, 0.96);
+    transition: 0.5s ease;
+}
+
+.container .card .contentbx .color .btn1:hover{
+    width:30px;
+    height: 30px;
+}
+
+.container .card .contentbx .color .btn2
+{
+    background: #fff;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    list-style-type: none;
+    background: rgba(163, 59, 40, 0.87);
+    list-style-type: none;
+    transition: 0.5s ease;
+}
+
+.container .card .contentbx .color .btn2:hover{
+    width:30px;
+    height: 30px;
+}
+
+.container .card .contentbx .color .btn3
+{
+    background: #fff;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    list-style-type: none;
+    background: #5d5b57;
+    transition: 0.5s ease;
+}
+
+.container .card .contentbx .color .btn3:hover{
+    width:30px;
+    height: 30px;
+}
+
+
+.proceed{
+    height: 50px;
+    width: 110px;
+    transform:translate(40%,690%);
+    border-radius: 15%;
+    letter-spacing: 1px;
+    color: #8f9696;
+    background: #3a3e3e;
+    transition: 1s ease;
+}
+.proceed a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.proceed :hover{
+    color:#cec5c5;
+}

@@ -1,0 +1,201 @@
+body
+{
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family:monospace,fantasy,cursive;
+    background: linear-gradient(135deg,rgb(192, 217, 235) 0%, rgb(39, 66, 74) 100%);
+}
+
+.container
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:980px;
+    height:590px;
+    background: #fff;
+    margin: 20px;
+}
+
+.container .imgbx
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: #002540;
+    
+}
+
+.container .imgbx:before
+{
+    content: 'Apple';
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color:#6f6d69;
+    opacity: 0.4;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.container .imgbx img{
+    position: relative;
+    widows: 700px;
+    transform: rotate(0deg);
+    right: 0px;
+    bottom: 0px;
+    top:25px;
+    transition: height 1.5s,width 1.5s;
+}
+
+.container .imgbx img:hover
+{
+    height:620px;
+    width:600px;
+    cursor:pointer;
+}
+
+
+.container .details
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: #26292f;
+}
+
+.container .details h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    line-height: 0.8em;
+    color: #0f609b;
+    line-height: 35px;
+}
+
+.container .details p
+{
+    max-width: 95%;
+    letter-spacing: 1px;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 14px;
+    color: #849196;
+}
+
+.container .details h3{
+    margin: 0;
+    padding:0;
+    font-size: 1.5em;
+    color: #0f609b;
+    float: left;
+}
+
+.container .details .size
+{
+    float:left;
+    margin-top: -20px;
+}
+
+
+
+.container .details .bt1
+{
+    margin-top:-10px;
+    color: #849196;
+   
+}
+.container .details .bt2
+{
+    margin-top:-40px;
+    margin-left: 50px;
+    color: #849196;
+   
+}
+.container .details .bt3
+{
+    margin-top:-40px;
+    color: #849196;
+    margin-left: 110px;
+   
+}
+
+.container .details .color
+{
+    margin-top: -5px;
+    margin-right: 200px;
+}
+
+.container .details .colors1
+{
+    margin-top:-28px;
+    float:left;
+    padding:10px 10px 10px 10px;
+    border-radius: 50px;
+    margin-left: -40px;
+    background-color: #c1ab38;
+    list-style: none;
+}
+.container .details .colors2
+{
+    margin-top:-28px;
+    float:left;
+    margin-left: -10px;
+    padding:10px 10px 10px 10px;
+     border-radius: 50px;
+    background-color: #968f8f;
+    list-style: none;
+
+}
+.container .details .colors3
+{
+    margin-top:-28px;
+    float:left;
+    margin-left: 20px;
+    padding:10px 10px 10px 10px;
+     border-radius: 50px;
+    background-color: #33383b;
+    list-style: none;
+}
+
+.container .details .buy
+{
+    background: #0070f7;
+    color:#fff;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin-top: -3px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 25px;
+    float: right;
+    cursor: pointer;
+}
+
+.container .details .price
+{
+    margin-top: 5px;
+    float: left;
+}
+
+.container .details .buy:hover{
+    background: #3b679d;
+}

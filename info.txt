@@ -1,0 +1,3 @@
+Main file is se3.php.
+Execute se3.php for running the script on browser.
+ 
