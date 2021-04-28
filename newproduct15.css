@@ -1,0 +1,205 @@
+body
+{
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family:monospace,fantasy,cursive;
+    background: linear-gradient(135deg,rgb(237, 198, 169) 0%, rgb(181, 122, 79) 100%);
+}
+
+.container
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:1000px;
+    height:570px;
+    background: #fff;
+    margin: 20px;
+}
+
+.container .imgbx
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: #8e5339;
+    
+}
+
+
+
+.container .imgbx:before
+{
+    content: 'RESIST';
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color:#43290f;
+    opacity: 0.3;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.container .imgbx img{
+    position: relative;
+    widows: 700px;
+    transform: rotate(0deg);
+    right: 0px;
+    bottom: 0px;
+    top:-35px;
+    left:50px;
+    transition: height 1.5s,width 1.5s;
+}
+
+.container .imgbx img:hover
+{
+    height:600px;
+    width:590px;
+    cursor:pointer;
+}
+
+
+.container .details
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: #e8d7d2;
+}
+
+.container .details h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 1.7em;
+    line-height: 0.8em;
+    color: #af6139;
+    line-height: 35px;
+}
+
+.container .details p
+{
+    max-width: 95%;
+    letter-spacing: 1px;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 14px;
+    color: #c4824a;
+}
+
+.container .details h3{
+    margin: 0;
+    padding:0;
+    font-size: 1.5em;
+    color:#a7652d;
+    float: left;
+}
+
+.container .details .size
+{
+    float:left;
+    margin-top: -15px;
+}
+
+
+
+.container .details .bt1
+{
+    margin-top:-10px;
+    float:left;
+    color: #849196;
+   
+}
+.container .details .bt2
+{
+    margin-top:-10px;
+    margin-left: 20px;
+    color: #849196;
+   
+}
+.container .details .bt3
+{
+    margin-top:-40px;
+    color: #849196;
+    margin-left: 120px;
+   
+}
+
+.container .details .color
+{
+    margin-top: -5px;
+    margin-right: 200px;
+}
+
+.container .details .colors1
+{
+    margin-top:-28px;
+    float:left;
+    padding:10px 10px 10px 10px;
+    border-radius: 50px;
+    margin-left: -40px;
+    background-color: #b77a34;
+    list-style: none;
+}
+.container .details .colors2
+{
+    margin-top:-28px;
+    float:left;
+    margin-left: -10px;
+    padding:10px 10px 10px 10px;
+     border-radius: 50px;
+    background-color: #165c29;
+    list-style: none;
+
+}
+.container .details .colors3
+{
+    margin-top:-28px;
+    float:left;
+    margin-left: 20px;
+    padding:10px 10px 10px 10px;
+     border-radius: 50px;
+    background-color: #525557;
+    list-style: none;
+}
+
+.container .details .buy
+{
+    background: #dd7842;
+    color:#fff;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin-top: -35px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 25px;
+    float: right;
+    cursor: pointer;
+}
+
+.container .details .price
+{
+    margin-top: -25px;
+    float: left;
+}
+
+.container .details .buy:hover{
+    background: #d36608;
+}

@@ -1,0 +1,206 @@
+body
+{
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family:monospace,fantasy,cursive;
+    background: linear-gradient(135deg,rgb(240, 243, 245) 0%, rgb(42, 178, 74) 120%);
+}
+
+.container
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:1000px;
+    height:570px;
+    background: #fff;
+    margin: 20px;
+}
+
+.container .imgbx
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: rgba(24, 77, 131, 0.69);
+    background: #46c337;
+    
+}
+
+
+
+.container .imgbx:before
+{
+    content: 'Nike';
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color:#b966e5;
+    opacity: 0.3;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.container .imgbx img{
+    position: relative;
+    widows: 700px;
+    transform: rotate(30deg);
+    right: 0px;
+    bottom: 0px;
+    top:5px;
+    right:0px;
+    transition: height 1.5s,width 1.5s;
+}
+
+.container .imgbx img:hover
+{
+    height:650px;
+    width:540px;
+    cursor:pointer;
+}
+
+
+.container .details
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: #d4e5cf;
+}
+
+.container .details h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 1.7em;
+    line-height: 0.8em;
+    color: #32ba2c;
+    line-height: 35px;
+}
+
+.container .details p
+{
+    max-width: 95%;
+    letter-spacing: 1px;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 14px;
+    color: #53aa74;
+}
+
+.container .details h3{
+    margin: 0;
+    padding:0;
+    font-size: 1.5em;
+    color:#3aaf59;
+    float: left;
+}
+
+.container .details .size
+{
+    float:left;
+    margin-top: -15px;
+}
+
+
+
+.container .details .bt1
+{
+    margin-top:0px;
+    float:left;
+    color: #849196;
+   
+}
+.container .details .bt2
+{
+    margin-top:0px;
+    margin-left: 20px;
+    color: #849196;
+   
+}
+.container .details .bt3
+{
+    margin-top:-40px;
+    color: #849196;
+    margin-left: 50px;
+   
+}
+
+.container .details .color
+{
+    margin-top: -20px;
+    margin-right: 200px;
+}
+
+.container .details .colors1
+{
+    margin-top:-40px;
+    float:left;
+    padding:10px 10px 10px 10px;
+    border-radius: 50px;
+    margin-left: -40px;
+    background-color: #60bfbc;
+    list-style: none;
+}
+.container .details .colors2
+{
+    margin-top:-40px;
+    float:left;
+    margin-left: -10px;
+    padding:10px 10px 10px 10px;
+     border-radius: 50px;
+    background-color: #c34d68;
+    list-style: none;
+
+}
+.container .details .colors3
+{
+    margin-top:-28px;
+    float:left;
+    margin-left: 20px;
+    padding:10px 10px 10px 10px;
+     border-radius: 50px;
+    background-color: #525557;
+    list-style: none;
+}
+
+.container .details .buy
+{
+    background: #50c16e;
+    color:#fff;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin-top: -25px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 25px;
+    float: right;
+    cursor: pointer;
+}
+
+.container .details .price
+{
+    margin-top: -15px;
+    float: left;
+}
+
+.container .details .buy:hover{
+    background: #3cb758;
+}
