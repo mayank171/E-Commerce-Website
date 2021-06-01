@@ -6,11 +6,7 @@ se3.php is the main file.
 Run it using Xampp control Panel.
 
 
-
-
-
-It has many bugs right now!!!!
-
+NOTE : Some features might not work as they are supposed to do.
 
 
 
