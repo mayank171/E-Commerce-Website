@@ -11,17 +11,6 @@ NOTE : Some features might not work as they are supposed to do.
 
 
 
-Demo
-
-
-![caption](C:\Users\Mayank\Downloads\Website - Personal - Microsoft_ Edge 2021-06-02 10-53-01)
-
-
-
-
-
-
-
 Home Screen Samples
 
 <img width="960" alt="git1" src="https://user-images.githubusercontent.com/46345959/120059089-c93ab180-c06c-11eb-8434-8370d0ee8ece.png">
